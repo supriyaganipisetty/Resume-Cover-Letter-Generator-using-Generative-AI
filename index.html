@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Resume & Cover Letter Writer</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <h1>Resume & Cover Letter Generator</h1>
+
+  <form id="resume-form">
+    <input type="text" name="name" placeholder="Full Name" required><br><br>
+    <textarea name="education" placeholder="Education" required></textarea><br><br>
+    <textarea name="experience" placeholder="Work Experience" required></textarea><br><br>
+    <input type="text" name="job_role" placeholder="Target Job Role" required><br><br>
+    <button type="submit">Generate</button>
+  </form>
+
+  <div id="output">
+    <h2>Resume</h2>
+    <pre id="resume"></pre>
+    <h2>Cover Letter</h2>
+    <pre id="cover_letter"></pre>
+    
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
